@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21679"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="86" id="KGk-i7-Jjw" customClass="ProfileCell" customModule="Blog_App" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="318" height="86"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="318" height="86"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hCN-Uy-BFm">
+                        <rect key="frame" x="10" y="5" width="298" height="76"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="img" translatesAutoresizingMaskIntoConstraints="NO" id="Ua6-NJ-UQ0">
+                                <rect key="frame" x="10" y="10" width="56" height="56"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="Ua6-NJ-UQ0" secondAttribute="height" id="H0R-pS-sIc"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Change Password" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EVt-Ec-hdK">
+                                <rect key="frame" x="76" y="28" width="202" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemGray6Color"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="Ua6-NJ-UQ0" secondAttribute="bottom" constant="10" id="5rO-VD-p6Y"/>
+                            <constraint firstAttribute="bottom" secondItem="EVt-Ec-hdK" secondAttribute="bottom" constant="27" id="Dax-Ff-XJ0"/>
+                            <constraint firstAttribute="trailing" secondItem="EVt-Ec-hdK" secondAttribute="trailing" constant="20" id="ahG-3X-Ght"/>
+                            <constraint firstItem="EVt-Ec-hdK" firstAttribute="top" secondItem="hCN-Uy-BFm" secondAttribute="top" constant="28" id="bmZ-0X-8ah"/>
+                            <constraint firstItem="Ua6-NJ-UQ0" firstAttribute="leading" secondItem="hCN-Uy-BFm" secondAttribute="leading" constant="10" id="cqw-3U-wlW"/>
+                            <constraint firstItem="EVt-Ec-hdK" firstAttribute="leading" secondItem="Ua6-NJ-UQ0" secondAttribute="trailing" constant="10" id="i4V-YK-wSX"/>
+                            <constraint firstItem="Ua6-NJ-UQ0" firstAttribute="top" secondItem="hCN-Uy-BFm" secondAttribute="top" constant="10" id="sel-Cq-Wxk"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="hCN-Uy-BFm" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="5" id="IU6-ZO-AiN"/>
+                    <constraint firstItem="hCN-Uy-BFm" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="STa-dm-iFV"/>
+                    <constraint firstAttribute="bottom" secondItem="hCN-Uy-BFm" secondAttribute="bottom" constant="5" id="T0i-mw-z6p"/>
+                    <constraint firstAttribute="trailing" secondItem="hCN-Uy-BFm" secondAttribute="trailing" constant="10" id="pg0-hY-Mkd"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="conteneirView" destination="hCN-Uy-BFm" id="Q0z-JN-aal"/>
+                <outlet property="editLbl" destination="EVt-Ec-hdK" id="iUG-Gg-jFB"/>
+                <outlet property="setImage" destination="Ua6-NJ-UQ0" id="H63-o6-Klg"/>
+            </connections>
+            <point key="canvasLocation" x="53.435114503816791" y="3.5211267605633805"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="img" width="408" height="230"/>
+        <systemColor name="systemGray6Color">
+            <color red="0.94901960784313721" green="0.94901960784313721" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

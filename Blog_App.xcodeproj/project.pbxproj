@@ -7,25 +7,93 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EE55B6AF2A5591B8000ED865 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE55B6AE2A5591B8000ED865 /* CoreDataManager.swift */; };
+		EED1C1752A397B1E00A14CFD /* editPostVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EED1C1732A397B1E00A14CFD /* editPostVC.swift */; };
+		EED1C1762A397B1E00A14CFD /* editPostVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = EED1C1742A397B1E00A14CFD /* editPostVC.xib */; };
+		EED7C0912A3894FE00D2CD2D /* ProfileCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EED7C08F2A3894FE00D2CD2D /* ProfileCell.swift */; };
+		EED7C0922A3894FE00D2CD2D /* ProfileCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EED7C0902A3894FE00D2CD2D /* ProfileCell.xib */; };
+		EED7C0952A38951400D2CD2D /* LikeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EED7C0932A38951400D2CD2D /* LikeCell.swift */; };
+		EED7C0962A38951400D2CD2D /* LikeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EED7C0942A38951400D2CD2D /* LikeCell.xib */; };
+		EED7C0992A38952400D2CD2D /* HomeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EED7C0972A38952400D2CD2D /* HomeCell.swift */; };
+		EED7C09A2A38952400D2CD2D /* HomeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EED7C0982A38952400D2CD2D /* HomeCell.xib */; };
+		EED7C09D2A38AACA00D2CD2D /* CreateVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EED7C09B2A38AACA00D2CD2D /* CreateVC.swift */; };
+		EED7C09E2A38AACA00D2CD2D /* CreateVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = EED7C09C2A38AACA00D2CD2D /* CreateVC.xib */; };
+		EED7C0A22A38AB1000D2CD2D /* EditProVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EED7C0A02A38AB1000D2CD2D /* EditProVC.swift */; };
+		EED7C0A32A38AB1000D2CD2D /* EditProVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = EED7C0A12A38AB1000D2CD2D /* EditProVC.xib */; };
+		EED7C0A62A38AB2200D2CD2D /* ChangePassVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EED7C0A42A38AB2200D2CD2D /* ChangePassVC.swift */; };
+		EED7C0A72A38AB2200D2CD2D /* ChangePassVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = EED7C0A52A38AB2200D2CD2D /* ChangePassVC.xib */; };
 		EEE7DAC82A377BBA0019B977 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE7DAC72A377BBA0019B977 /* AppDelegate.swift */; };
-		EEE7DACA2A377BBA0019B977 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE7DAC92A377BBA0019B977 /* SceneDelegate.swift */; };
-		EEE7DACC2A377BBA0019B977 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE7DACB2A377BBA0019B977 /* ViewController.swift */; };
-		EEE7DACF2A377BBA0019B977 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEE7DACD2A377BBA0019B977 /* Main.storyboard */; };
 		EEE7DAD22A377BBA0019B977 /* Blog_App.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EEE7DAD02A377BBA0019B977 /* Blog_App.xcdatamodeld */; };
 		EEE7DAD42A377BBB0019B977 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EEE7DAD32A377BBB0019B977 /* Assets.xcassets */; };
 		EEE7DAD72A377BBB0019B977 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEE7DAD52A377BBB0019B977 /* LaunchScreen.storyboard */; };
+		EEE7DAE82A377ECE0019B977 /* SingInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE7DAE62A377ECE0019B977 /* SingInVC.swift */; };
+		EEE7DAE92A377ECE0019B977 /* SingInVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = EEE7DAE72A377ECE0019B977 /* SingInVC.xib */; };
+		EEE7DAEC2A377EE50019B977 /* CreateAcVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE7DAEA2A377EE50019B977 /* CreateAcVC.swift */; };
+		EEE7DAED2A377EE50019B977 /* CreateAcVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = EEE7DAEB2A377EE50019B977 /* CreateAcVC.xib */; };
+		EEE7DAF12A3783660019B977 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE7DAEF2A3783660019B977 /* MainVC.swift */; };
+		EEE7DAF22A3783660019B977 /* MainVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = EEE7DAF02A3783660019B977 /* MainVC.xib */; };
+		EEE7DAF92A378F6F0019B977 /* HomeTabBarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE7DAF72A378F6F0019B977 /* HomeTabBarVC.swift */; };
+		EEE7DAFA2A378F6F0019B977 /* HomeTabBarVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = EEE7DAF82A378F6F0019B977 /* HomeTabBarVC.xib */; };
+		EEE7DAFE2A378FB30019B977 /* LikeTabBarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE7DAFC2A378FB30019B977 /* LikeTabBarVC.swift */; };
+		EEE7DAFF2A378FB30019B977 /* LikeTabBarVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = EEE7DAFD2A378FB30019B977 /* LikeTabBarVC.xib */; };
+		EEE7DB022A378FD00019B977 /* ProfileTBVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE7DB002A378FD00019B977 /* ProfileTBVC.swift */; };
+		EEE7DB032A378FD00019B977 /* ProfileTBVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = EEE7DB012A378FD00019B977 /* ProfileTBVC.xib */; };
+		EEE7DB0C2A37957A0019B977 /* Tabbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE7DB0A2A37957A0019B977 /* Tabbar.swift */; };
+		EEE7DB0D2A37957A0019B977 /* Tabbar.xib in Resources */ = {isa = PBXBuildFile; fileRef = EEE7DB0B2A37957A0019B977 /* Tabbar.xib */; };
+		EEF458932A541458002FFDC6 /* MyPost.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEF458912A541458002FFDC6 /* MyPost.swift */; };
+		EEF458942A541458002FFDC6 /* MyPost.xib in Resources */ = {isa = PBXBuildFile; fileRef = EEF458922A541458002FFDC6 /* MyPost.xib */; };
+		EEF4589B2A54506F002FFDC6 /* SeePostVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEF458992A54506F002FFDC6 /* SeePostVC.swift */; };
+		EEF4589C2A54506F002FFDC6 /* SeePostVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = EEF4589A2A54506F002FFDC6 /* SeePostVC.xib */; };
+		EEF4589F2A546047002FFDC6 /* CommentVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEF4589D2A546047002FFDC6 /* CommentVC.swift */; };
+		EEF458A02A546047002FFDC6 /* CommentVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = EEF4589E2A546047002FFDC6 /* CommentVC.xib */; };
+		EEF458A32A546A5C002FFDC6 /* CommentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEF458A12A546A5C002FFDC6 /* CommentCell.swift */; };
+		EEF458A42A546A5C002FFDC6 /* CommentCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EEF458A22A546A5C002FFDC6 /* CommentCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EE55B6AE2A5591B8000ED865 /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
+		EED1C1732A397B1E00A14CFD /* editPostVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = editPostVC.swift; sourceTree = "<group>"; };
+		EED1C1742A397B1E00A14CFD /* editPostVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = editPostVC.xib; sourceTree = "<group>"; };
+		EED7C08F2A3894FE00D2CD2D /* ProfileCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileCell.swift; sourceTree = "<group>"; };
+		EED7C0902A3894FE00D2CD2D /* ProfileCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProfileCell.xib; sourceTree = "<group>"; };
+		EED7C0932A38951400D2CD2D /* LikeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LikeCell.swift; sourceTree = "<group>"; };
+		EED7C0942A38951400D2CD2D /* LikeCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LikeCell.xib; sourceTree = "<group>"; };
+		EED7C0972A38952400D2CD2D /* HomeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCell.swift; sourceTree = "<group>"; };
+		EED7C0982A38952400D2CD2D /* HomeCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeCell.xib; sourceTree = "<group>"; };
+		EED7C09B2A38AACA00D2CD2D /* CreateVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateVC.swift; sourceTree = "<group>"; };
+		EED7C09C2A38AACA00D2CD2D /* CreateVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CreateVC.xib; sourceTree = "<group>"; };
+		EED7C0A02A38AB1000D2CD2D /* EditProVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProVC.swift; sourceTree = "<group>"; };
+		EED7C0A12A38AB1000D2CD2D /* EditProVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EditProVC.xib; sourceTree = "<group>"; };
+		EED7C0A42A38AB2200D2CD2D /* ChangePassVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangePassVC.swift; sourceTree = "<group>"; };
+		EED7C0A52A38AB2200D2CD2D /* ChangePassVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ChangePassVC.xib; sourceTree = "<group>"; };
 		EEE7DAC42A377BBA0019B977 /* Blog_App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Blog_App.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EEE7DAC72A377BBA0019B977 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		EEE7DAC92A377BBA0019B977 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		EEE7DACB2A377BBA0019B977 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		EEE7DACE2A377BBA0019B977 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EEE7DAD12A377BBA0019B977 /* Blog_App.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Blog_App.xcdatamodel; sourceTree = "<group>"; };
 		EEE7DAD32A377BBB0019B977 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EEE7DAD62A377BBB0019B977 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EEE7DAD82A377BBB0019B977 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EEE7DAE62A377ECE0019B977 /* SingInVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingInVC.swift; sourceTree = "<group>"; };
+		EEE7DAE72A377ECE0019B977 /* SingInVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SingInVC.xib; sourceTree = "<group>"; };
+		EEE7DAEA2A377EE50019B977 /* CreateAcVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAcVC.swift; sourceTree = "<group>"; };
+		EEE7DAEB2A377EE50019B977 /* CreateAcVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CreateAcVC.xib; sourceTree = "<group>"; };
+		EEE7DAEF2A3783660019B977 /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
+		EEE7DAF02A3783660019B977 /* MainVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainVC.xib; sourceTree = "<group>"; };
+		EEE7DAF72A378F6F0019B977 /* HomeTabBarVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTabBarVC.swift; sourceTree = "<group>"; };
+		EEE7DAF82A378F6F0019B977 /* HomeTabBarVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeTabBarVC.xib; sourceTree = "<group>"; };
+		EEE7DAFC2A378FB30019B977 /* LikeTabBarVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LikeTabBarVC.swift; sourceTree = "<group>"; };
+		EEE7DAFD2A378FB30019B977 /* LikeTabBarVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LikeTabBarVC.xib; sourceTree = "<group>"; };
+		EEE7DB002A378FD00019B977 /* ProfileTBVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileTBVC.swift; sourceTree = "<group>"; };
+		EEE7DB012A378FD00019B977 /* ProfileTBVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProfileTBVC.xib; sourceTree = "<group>"; };
+		EEE7DB0A2A37957A0019B977 /* Tabbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tabbar.swift; sourceTree = "<group>"; };
+		EEE7DB0B2A37957A0019B977 /* Tabbar.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Tabbar.xib; sourceTree = "<group>"; };
+		EEF458912A541458002FFDC6 /* MyPost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPost.swift; sourceTree = "<group>"; };
+		EEF458922A541458002FFDC6 /* MyPost.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyPost.xib; sourceTree = "<group>"; };
+		EEF458992A54506F002FFDC6 /* SeePostVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeePostVC.swift; sourceTree = "<group>"; };
+		EEF4589A2A54506F002FFDC6 /* SeePostVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SeePostVC.xib; sourceTree = "<group>"; };
+		EEF4589D2A546047002FFDC6 /* CommentVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentVC.swift; sourceTree = "<group>"; };
+		EEF4589E2A546047002FFDC6 /* CommentVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CommentVC.xib; sourceTree = "<group>"; };
+		EEF458A12A546A5C002FFDC6 /* CommentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentCell.swift; sourceTree = "<group>"; };
+		EEF458A22A546A5C002FFDC6 /* CommentCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CommentCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +107,29 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EED7C09F2A38AAD300D2CD2D /* OtherFile */ = {
+			isa = PBXGroup;
+			children = (
+				EED7C09B2A38AACA00D2CD2D /* CreateVC.swift */,
+				EED7C09C2A38AACA00D2CD2D /* CreateVC.xib */,
+				EEF458992A54506F002FFDC6 /* SeePostVC.swift */,
+				EEF4589A2A54506F002FFDC6 /* SeePostVC.xib */,
+				EEF458912A541458002FFDC6 /* MyPost.swift */,
+				EEF458922A541458002FFDC6 /* MyPost.xib */,
+				EED1C1732A397B1E00A14CFD /* editPostVC.swift */,
+				EED1C1742A397B1E00A14CFD /* editPostVC.xib */,
+				EED7C0A02A38AB1000D2CD2D /* EditProVC.swift */,
+				EED7C0A12A38AB1000D2CD2D /* EditProVC.xib */,
+				EED7C0A42A38AB2200D2CD2D /* ChangePassVC.swift */,
+				EED7C0A52A38AB2200D2CD2D /* ChangePassVC.xib */,
+				EEF4589D2A546047002FFDC6 /* CommentVC.swift */,
+				EEF4589E2A546047002FFDC6 /* CommentVC.xib */,
+				EEF458A12A546A5C002FFDC6 /* CommentCell.swift */,
+				EEF458A22A546A5C002FFDC6 /* CommentCell.xib */,
+			);
+			path = OtherFile;
+			sourceTree = "<group>";
+		};
 		EEE7DABB2A377BBA0019B977 = {
 			isa = PBXGroup;
 			children = (
@@ -59,15 +150,50 @@
 			isa = PBXGroup;
 			children = (
 				EEE7DAC72A377BBA0019B977 /* AppDelegate.swift */,
-				EEE7DAC92A377BBA0019B977 /* SceneDelegate.swift */,
-				EEE7DACB2A377BBA0019B977 /* ViewController.swift */,
-				EEE7DACD2A377BBA0019B977 /* Main.storyboard */,
+				EE55B6AE2A5591B8000ED865 /* CoreDataManager.swift */,
+				EED7C09F2A38AAD300D2CD2D /* OtherFile */,
+				EEE7DAEE2A377EFE0019B977 /* Password */,
+				EEE7DAFB2A378F740019B977 /* TabBarVC */,
 				EEE7DAD32A377BBB0019B977 /* Assets.xcassets */,
 				EEE7DAD52A377BBB0019B977 /* LaunchScreen.storyboard */,
 				EEE7DAD82A377BBB0019B977 /* Info.plist */,
 				EEE7DAD02A377BBA0019B977 /* Blog_App.xcdatamodeld */,
 			);
 			path = Blog_App;
+			sourceTree = "<group>";
+		};
+		EEE7DAEE2A377EFE0019B977 /* Password */ = {
+			isa = PBXGroup;
+			children = (
+				EEE7DAEF2A3783660019B977 /* MainVC.swift */,
+				EEE7DAF02A3783660019B977 /* MainVC.xib */,
+				EEE7DAE62A377ECE0019B977 /* SingInVC.swift */,
+				EEE7DAE72A377ECE0019B977 /* SingInVC.xib */,
+				EEE7DAEA2A377EE50019B977 /* CreateAcVC.swift */,
+				EEE7DAEB2A377EE50019B977 /* CreateAcVC.xib */,
+			);
+			path = Password;
+			sourceTree = "<group>";
+		};
+		EEE7DAFB2A378F740019B977 /* TabBarVC */ = {
+			isa = PBXGroup;
+			children = (
+				EEE7DB0A2A37957A0019B977 /* Tabbar.swift */,
+				EEE7DB0B2A37957A0019B977 /* Tabbar.xib */,
+				EEE7DAF72A378F6F0019B977 /* HomeTabBarVC.swift */,
+				EEE7DAF82A378F6F0019B977 /* HomeTabBarVC.xib */,
+				EED7C0972A38952400D2CD2D /* HomeCell.swift */,
+				EED7C0982A38952400D2CD2D /* HomeCell.xib */,
+				EEE7DAFC2A378FB30019B977 /* LikeTabBarVC.swift */,
+				EEE7DAFD2A378FB30019B977 /* LikeTabBarVC.xib */,
+				EED7C0932A38951400D2CD2D /* LikeCell.swift */,
+				EED7C0942A38951400D2CD2D /* LikeCell.xib */,
+				EEE7DB002A378FD00019B977 /* ProfileTBVC.swift */,
+				EEE7DB012A378FD00019B977 /* ProfileTBVC.xib */,
+				EED7C08F2A3894FE00D2CD2D /* ProfileCell.swift */,
+				EED7C0902A3894FE00D2CD2D /* ProfileCell.xib */,
+			);
+			path = TabBarVC;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -129,8 +255,25 @@
 			buildActionMask = 2147483647;
 			files = (
 				EEE7DAD72A377BBB0019B977 /* LaunchScreen.storyboard in Resources */,
+				EEE7DB032A378FD00019B977 /* ProfileTBVC.xib in Resources */,
+				EEF458A02A546047002FFDC6 /* CommentVC.xib in Resources */,
+				EEE7DB0D2A37957A0019B977 /* Tabbar.xib in Resources */,
+				EEE7DAE92A377ECE0019B977 /* SingInVC.xib in Resources */,
+				EED7C0962A38951400D2CD2D /* LikeCell.xib in Resources */,
+				EEE7DAFF2A378FB30019B977 /* LikeTabBarVC.xib in Resources */,
+				EED7C0A32A38AB1000D2CD2D /* EditProVC.xib in Resources */,
+				EEE7DAF22A3783660019B977 /* MainVC.xib in Resources */,
+				EEE7DAED2A377EE50019B977 /* CreateAcVC.xib in Resources */,
 				EEE7DAD42A377BBB0019B977 /* Assets.xcassets in Resources */,
-				EEE7DACF2A377BBA0019B977 /* Main.storyboard in Resources */,
+				EEE7DAFA2A378F6F0019B977 /* HomeTabBarVC.xib in Resources */,
+				EEF4589C2A54506F002FFDC6 /* SeePostVC.xib in Resources */,
+				EED7C09A2A38952400D2CD2D /* HomeCell.xib in Resources */,
+				EED7C09E2A38AACA00D2CD2D /* CreateVC.xib in Resources */,
+				EEF458A42A546A5C002FFDC6 /* CommentCell.xib in Resources */,
+				EED7C0A72A38AB2200D2CD2D /* ChangePassVC.xib in Resources */,
+				EEF458942A541458002FFDC6 /* MyPost.xib in Resources */,
+				EED1C1762A397B1E00A14CFD /* editPostVC.xib in Resources */,
+				EED7C0922A3894FE00D2CD2D /* ProfileCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,24 +284,33 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EEE7DACC2A377BBA0019B977 /* ViewController.swift in Sources */,
+				EEE7DAEC2A377EE50019B977 /* CreateAcVC.swift in Sources */,
+				EEE7DAF92A378F6F0019B977 /* HomeTabBarVC.swift in Sources */,
+				EEE7DAF12A3783660019B977 /* MainVC.swift in Sources */,
+				EEE7DB0C2A37957A0019B977 /* Tabbar.swift in Sources */,
+				EED7C0A62A38AB2200D2CD2D /* ChangePassVC.swift in Sources */,
 				EEE7DAD22A377BBA0019B977 /* Blog_App.xcdatamodeld in Sources */,
+				EEF4589F2A546047002FFDC6 /* CommentVC.swift in Sources */,
+				EEE7DAE82A377ECE0019B977 /* SingInVC.swift in Sources */,
 				EEE7DAC82A377BBA0019B977 /* AppDelegate.swift in Sources */,
-				EEE7DACA2A377BBA0019B977 /* SceneDelegate.swift in Sources */,
+				EED7C0952A38951400D2CD2D /* LikeCell.swift in Sources */,
+				EED1C1752A397B1E00A14CFD /* editPostVC.swift in Sources */,
+				EED7C0A22A38AB1000D2CD2D /* EditProVC.swift in Sources */,
+				EE55B6AF2A5591B8000ED865 /* CoreDataManager.swift in Sources */,
+				EEE7DAFE2A378FB30019B977 /* LikeTabBarVC.swift in Sources */,
+				EEE7DB022A378FD00019B977 /* ProfileTBVC.swift in Sources */,
+				EED7C09D2A38AACA00D2CD2D /* CreateVC.swift in Sources */,
+				EEF458932A541458002FFDC6 /* MyPost.swift in Sources */,
+				EED7C0992A38952400D2CD2D /* HomeCell.swift in Sources */,
+				EED7C0912A3894FE00D2CD2D /* ProfileCell.swift in Sources */,
+				EEF4589B2A54506F002FFDC6 /* SeePostVC.swift in Sources */,
+				EEF458A32A546A5C002FFDC6 /* CommentCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		EEE7DACD2A377BBA0019B977 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				EEE7DACE2A377BBA0019B977 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		EEE7DAD52A377BBB0019B977 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -293,9 +445,10 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Blog_App/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Blog App";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -320,9 +473,10 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Blog_App/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Blog App";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
