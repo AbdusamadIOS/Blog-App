@@ -10,7 +10,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="EditProVC" customModule="Blog_App" customModuleProvider="target">
             <connections>
-                <outlet property="emailTF" destination="AdE-92-g6w" id="keC-If-CO4"/>
+                <outlet property="lastNameTF" destination="AdE-92-g6w" id="keC-If-CO4"/>
                 <outlet property="surnameTF" destination="Zie-Tq-28P" id="Rn2-j2-CJE"/>
                 <outlet property="updataBtn" destination="Sy8-qH-h2a" id="gEq-Ct-VLy"/>
                 <outlet property="userImage" destination="bN7-Am-VcI" id="QOt-RT-U7b"/>
@@ -54,13 +54,13 @@
                             <fontDescription key="fontDescription" type="system" pointSize="14"/>
                             <textInputTraits key="textInputTraits"/>
                         </textField>
-                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Email" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aQh-9Y-Zr4">
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Lastname" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aQh-9Y-Zr4">
                             <rect key="frame" x="0.0" y="100" width="353" height="50"/>
                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                             <nil key="textColor"/>
                             <nil key="highlightedColor"/>
                         </label>
-                        <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Email" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="AdE-92-g6w">
+                        <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Lastname" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="AdE-92-g6w">
                             <rect key="frame" x="0.0" y="150" width="353" height="50"/>
                             <fontDescription key="fontDescription" type="system" pointSize="14"/>
                             <textInputTraits key="textInputTraits"/>

@@ -12,8 +12,8 @@
             <connections>
                 <outlet property="conteneirView" destination="gGQ-38-mwI" id="Kvt-6e-12m"/>
                 <outlet property="tableView" destination="99E-rn-ihW" id="5Jn-2Z-0Qo"/>
-                <outlet property="userEmailLbl" destination="ZgI-la-vWa" id="93Q-Vg-hAy"/>
                 <outlet property="userImage" destination="IjD-at-L48" id="sCB-Gz-OZ1"/>
+                <outlet property="userLastNameLbl" destination="ZgI-la-vWa" id="93Q-Vg-hAy"/>
                 <outlet property="userNameLbl" destination="TY8-ee-nQO" id="sqD-gg-dqj"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
@@ -48,7 +48,7 @@
                                     <nil key="textColor"/>
                                     <nil key="highlightedColor"/>
                                 </label>
-                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="email" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZgI-la-vWa">
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Lastname" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZgI-la-vWa">
                                     <rect key="frame" x="0.0" y="40" width="194" height="34"/>
                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                     <nil key="textColor"/>

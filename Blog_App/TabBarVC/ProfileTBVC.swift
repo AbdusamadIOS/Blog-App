@@ -14,12 +14,12 @@ class ProfileTBVC: UIViewController {
     @IBOutlet weak var tableView: UITableView!
     @IBOutlet weak var userImage: UIImageView!
     @IBOutlet weak var userNameLbl: UILabel!
-    @IBOutlet weak var userEmailLbl: UILabel!
+    @IBOutlet weak var userLastNameLbl: UILabel!
     
     let appDelegate = UIApplication.shared.delegate as! AppDelegate
     var context: NSManagedObjectContext? = nil
-    
-    var profile: [Profile] = []
+ 
+    var userdata: UserDataModel?
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -38,23 +38,19 @@ class ProfileTBVC: UIViewController {
         context = appDelegate.persistentContainer.viewContext
         userImage.layer.cornerRadius = 42
         userImage.clipsToBounds = true
-        getData()
         setupTV()
         setupNav()
     }
- 
-    func getData() {
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
         
-        let request: NSFetchRequest<Profile> = Profile.fetchRequest()
-        do {
-            if let data =  try context?.fetch(request) {
-                profile = data
-            }
-        } catch {
-            print("get data error", error)
+        if let userdata {
+            
+            userNameLbl.text = userdata.surname
+            userLastNameLbl.text = userdata.lastName
         }
     }
-   
+
     func setupNav() {
         let out = UIBarButtonItem(image: UIImage(systemName: "rectangle.portrait.and.arrow.forward"),
                                    style: .done,
@@ -96,19 +92,9 @@ class ProfileTBVC: UIViewController {
     
     @IBAction func editProfile(_ sender: UIButton) {
         let vc2 = EditProVC(nibName: "EditProVC", bundle: nil)
-  
-            vc2.closure =  { newElement in
-                self.profile.append(newElement)
-            
-                
-            do {
-                try self.context?.save()
 
-            } catch   {
-                print("error save", error)
-            }
-            
-           
+        vc2.closure =  { userdata in
+            self.userdata = userdata
         }
         self.navigationController?.pushViewController(vc2, animated: true)
     }

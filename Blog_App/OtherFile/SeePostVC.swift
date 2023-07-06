@@ -101,6 +101,7 @@ extension SeePostVC: UITableViewDelegate, UITableViewDataSource {
         let cell = tableView.dequeueReusableCell(withIdentifier: "CommentCell") as! CommentCell
         
         cell.commentLbl.text = comments[indexPath.row].message
+        cell.userNameLbl.text = comments[indexPath.row].author?.userName
         
         cell.selectionStyle = .none
         return cell

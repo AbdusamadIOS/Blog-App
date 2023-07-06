@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		EE55B6AF2A5591B8000ED865 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE55B6AE2A5591B8000ED865 /* CoreDataManager.swift */; };
+		EECD1ADD2A56BB1E00D36BB4 /* UserDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EECD1ADC2A56BB1E00D36BB4 /* UserDataModel.swift */; };
 		EED1C1752A397B1E00A14CFD /* editPostVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EED1C1732A397B1E00A14CFD /* editPostVC.swift */; };
 		EED1C1762A397B1E00A14CFD /* editPostVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = EED1C1742A397B1E00A14CFD /* editPostVC.xib */; };
 		EED7C0912A3894FE00D2CD2D /* ProfileCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EED7C08F2A3894FE00D2CD2D /* ProfileCell.swift */; };
@@ -52,6 +53,7 @@
 
 /* Begin PBXFileReference section */
 		EE55B6AE2A5591B8000ED865 /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
+		EECD1ADC2A56BB1E00D36BB4 /* UserDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDataModel.swift; sourceTree = "<group>"; };
 		EED1C1732A397B1E00A14CFD /* editPostVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = editPostVC.swift; sourceTree = "<group>"; };
 		EED1C1742A397B1E00A14CFD /* editPostVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = editPostVC.xib; sourceTree = "<group>"; };
 		EED7C08F2A3894FE00D2CD2D /* ProfileCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileCell.swift; sourceTree = "<group>"; };
@@ -126,6 +128,7 @@
 				EEF4589E2A546047002FFDC6 /* CommentVC.xib */,
 				EEF458A12A546A5C002FFDC6 /* CommentCell.swift */,
 				EEF458A22A546A5C002FFDC6 /* CommentCell.xib */,
+				EECD1ADC2A56BB1E00D36BB4 /* UserDataModel.swift */,
 			);
 			path = OtherFile;
 			sourceTree = "<group>";
@@ -304,6 +307,7 @@
 				EED7C0992A38952400D2CD2D /* HomeCell.swift in Sources */,
 				EED7C0912A3894FE00D2CD2D /* ProfileCell.swift in Sources */,
 				EEF4589B2A54506F002FFDC6 /* SeePostVC.swift in Sources */,
+				EECD1ADD2A56BB1E00D36BB4 /* UserDataModel.swift in Sources */,
 				EEF458A32A546A5C002FFDC6 /* CommentCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

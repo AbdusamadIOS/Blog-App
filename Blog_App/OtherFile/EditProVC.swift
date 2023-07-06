@@ -12,10 +12,12 @@ class EditProVC: UIViewController {
     
     @IBOutlet weak var userImage: UIImageView!
     @IBOutlet weak var surnameTF: UITextField!
-    @IBOutlet weak var emailTF: UITextField!
+    @IBOutlet weak var lastNameTF: UITextField!
     @IBOutlet weak var updataBtn: UIButton!
     
-    var closure:((Profile) -> Void)?
+//    var closure:((Profile) -> Void)?
+    var closure:((UserDataModel) -> Void)?
+    var userdata: UserDataModel?
     
     let appDelegate = UIApplication.shared.delegate as! AppDelegate
     var context: NSManagedObjectContext? = nil
@@ -77,20 +79,33 @@ class EditProVC: UIViewController {
     
     @IBAction func updataBtn(_ sender: UIButton) {
         
-        let newElement = Profile(context: self.context!)
+//        let newElement = Profile(context: self.context!)
+//
+//        newElement.name = surnameTF.text ?? "no name"
+//        newElement.email = emailTF.text  ?? "no surname"
+//
+//
+//        if let closure {
+//            closure(newElement)
+//        }
+        if userdata != nil {
+            userdata!.surname = surnameTF.text ?? "no name"
+            userdata!.lastName = lastNameTF.text ?? "no name"
+        } else {
+            
+            userdata = UserDataModel(surname: surnameTF.text ?? "No name",
+                                     lastName:  lastNameTF.text ?? "No lastname")
+        }
         
-        newElement.name = surnameTF.text
-        newElement.email = emailTF.text
-
-
         if let closure {
-            closure(newElement)
+            closure(userdata!)
         }
         
         self.navigationController?.popViewController(animated: true)
     }
     
 }
+                                     
 extension EditProVC: UIImagePickerControllerDelegate, UINavigationControllerDelegate {
     
     func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [UIImagePickerController.InfoKey : Any]) {
